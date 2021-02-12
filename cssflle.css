@@ -69,7 +69,7 @@ a:hover
 } */
 .bat{
     opacity: 0.7;
-    background-image: url("/images/image6.jpg");
+    background-image: url("images/image6.jpg");
     height: 695px;
     background-attachment: fixed;
 }
@@ -273,14 +273,14 @@ span
     background-attachment: fixed;
     height: 695px;
     opacity: 0.6;
-    background-image: url("/images/image7.jpg");
+    background-image: url("images/image7.jpg");
 }
 .bat2
 {
     background-attachment: fixed;
     height: 695px;
     opacity: 0.8;
-    background-image: url("/images/background1.jpeg");
+    background-image: url("images/background1.jpeg");
 }
 .comm
 {
@@ -310,7 +310,7 @@ span
     background-attachment: fixed;
     height: 1000px;
     opacity: 0.8;
-    background-image: url("/images/image8.jpg") ;
+    background-image: url("images/image8.jpg") ;
 }
 .comm1
 {
