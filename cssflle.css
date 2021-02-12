@@ -242,7 +242,7 @@ span
 }
 .li
 {
-    margin-left: 30%;
+    margin-left: 20%;
 }
 .li1
 {
@@ -430,6 +430,7 @@ span
 {
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
+    letter-spacing: 1.5px;
 }
 .about
 {
