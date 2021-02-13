@@ -41,7 +41,7 @@ a:hover
     color: white;
     list-style: none;
     padding-left: 0px;
-    font-size:10px;
+    font-size: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: block;  
     margin:3%;
@@ -64,19 +64,20 @@ a:hover
     /* border: solid 5px grey; */
 }
 b{
-    margin-left:200px;
+    margin-left:150px;
+    font-size: 15px;
 }
 .search
 {
     /* position: relative; */
     border-radius: 25px;
-    width:60px;
-    margin-left: 190px;
+    width:200px;
+    margin-top:50px;
+    margin-left:30px;
     padding:1.5px;
-    font-size: 2px;
+    font-size: 10px;
     border:solid;
-    height:2px;
-    height: 5px;
+    height: 10px;
 }
 .open
 {

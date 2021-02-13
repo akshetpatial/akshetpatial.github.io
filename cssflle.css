@@ -71,8 +71,9 @@ b{
 {
     position: relative;
     border-radius: 25px;
-    width:20%;
-    margin-left: 900px;
+    width:800px;
+    margin-left: 200px;
+    margin-top: 50px;
     padding:1%;
     border:solid;
 }
@@ -127,7 +128,7 @@ b{
     color:teal;
     animation: new;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-out;
 }
 @keyframes new
