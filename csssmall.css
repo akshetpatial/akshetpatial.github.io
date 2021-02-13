@@ -12,10 +12,7 @@ a
  text-decoration: none; 
  color: white;  
 }
-hr
-{
-    width:155.5px;
-}
+
 a:hover
 {
     color:rgb(151, 148, 148);
@@ -27,10 +24,10 @@ a:hover
     color: white;
     list-style: none;
     padding-left: 0px;
-    font-size:3px;
+    font-size:10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: inline;  
-    margin:1%;
+    margin:1.5%;
     transition: 0.8s;
 }
 .navlist li:hover
@@ -46,19 +43,20 @@ a:hover
     padding-top:0px;
     margin:0%;
     position: sticky;
-    top:0; 
+    top:1; 
     /* border: solid 5px grey; */
 }
 .search
 {
     /* position: relative; */
     border-radius: 25px;
-    width:28px;
+    width:60px;
     margin-left: 0px;
-    padding:1px;
-    font-size: 5px;
+    padding:1.5px;
+    font-size: 2px;
     border:solid;
     height:2px;
+    height: 5px;
 }
 .search:hover
 {
@@ -74,23 +72,22 @@ a:hover
 .di1 video
 {
     margin-top: 50px;
-    height:100px;
-    width:150px;
+    height:100%;
+    width:100%;
+    margin-bottom: 100px;
 }
 .bat{
-    opacity: 0.7;
+    /* opacity: 0.7; */
     background-image: url("images/image6.jpg");
-    height: 350px;
-    width: 155.5px;
+    height: 780px;
+    width: 100%;
     background-attachment: fixed;
 }
 .img
 {
-    margin: auto;
-    margin-left: 60px;
-    margin-top: 50px;
-    width: 50px;
-    height: 50px;
+    margin: 150px 100px;
+    width: 150px;
+    height: 150px;
     border-radius:150px;   
     transition: 1s;
     filter: contrast(120%);
@@ -119,13 +116,12 @@ a:hover
     } 
 }
 .name
-{   margin-left:50px;
-    width: 150px;
-    margin-top: 50px;
+{   margin:0px 100px;
+    width:80%;
     font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
     transition: 2s;
-    font-size: 10px;
+    font-size: 20px;
 }
 .name:hover
 {
@@ -134,18 +130,18 @@ a:hover
 }
 .div1
 {
-    opacity: 0.7;
+    /* opacity: 0.7; */
     color: white;
     /* border-radius:50px; */
-    height:100px
+    height:400px
 }
 .hn1
 {
-   width: 200px;
+   width: 150px;
    margin: auto;
    padding-top: 20px;
    color:  rgb(250, 250, 255);
-   font-size: 10px;
+   font-size: 50px;
    transition: 1s;
 }
 .hn1:hover
@@ -157,7 +153,7 @@ a:hover
 {
     overflow: hidden;
     color: rgb(250, 250, 255);
-    font-size: 7px;
+    font-size: 15px;
     font-family:cursive;
     margin: auto;
     width: 10%;
@@ -194,36 +190,41 @@ transform: scale(1.05);
     }
     to
     {
-        width: 340px;
+        width: 82%;
     }
 } 
 .div2
 {
     margin:0.5%;
     border: solid 2px;
-    width: 155.5px;
+    /* width: 155.5px; */
     /* border-radius:100%; */
     /* display:flex; */
 }
 .hn2
 {
     font-family:Arial, Helvetica, sans-serif;
-    margin-left:15px;
     color: white;
     background-color: transparent;
     font-weight: bolder;
     letter-spacing: 2px;
-    margin-top: 5%;
-    font-size:20px;
-    margin-top: 30px;
+    font-size:30px;
+    margin: 30px 80px;
 }
 .box1
 {
-    /* background: url("https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=282&q=80"); */
     margin:1%;
     border: solid 2px black;
-    /* border-radius: 50px 50px; */
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    height: 1100px;
+    transition-duration:0.5s;  
+}
+.box11
+{
+    margin:1%;
+    border: solid 2px black;
+    /* opacity: 0.5; */
+    height: 900px;
     transition-duration:0.5s;  
 }
 .p1
@@ -231,10 +232,10 @@ transform: scale(1.05);
     color: white;
     margin:auto; 
     font-family:cursive;
-    width: 140px;
+    width: 90%;
     box-sizing: border-box;  
-    letter-spacing: 2px;
-    font-size: 8px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
     margin-top: 30px;
 }
 span
@@ -245,7 +246,14 @@ span
 }
 .box1:hover
 {
-    /* border: solid 5px grey; */
+    opacity: 1;
+    box-shadow: 8px 8px 20px 5px rgb(13, 211, 13);
+    transform: scale(1.03);
+    display: block;
+    z-index: 1;
+}
+.box11:hover
+{
     opacity: 1;
     box-shadow: 8px 8px 20px 5px rgb(13, 211, 13);
     transform: scale(1.03);
@@ -256,16 +264,11 @@ span
 {   filter: invert(70%);
     filter: saturate(200%);
     background: transparent;
-    width: 20px;
+    width: 30px;
 }
-/* .li
-{
-    padding-left: 10px;
-} */
 .li1
 {
     margin-bottom: 25px;
-    font-size: 7px;
 }
 .li2
 {
@@ -293,16 +296,16 @@ span
 .bat1
 {
     background-attachment: fixed;
-    height: 350px;
-    opacity: 0.8;
+    height: 500px;
+    z-index: 1;
     margin-left: -2%;
     background-image: url("images/image7Copy.jpg");
 }
 .bat2
 {
     background-attachment: fixed;
-    height: 350px;
-    opacity: 0.8;
+    height: 500px;
+    /* opacity: 0.8; */
     margin-left: -2%;
     background-image: url("images/background1.jpeg");
 }
@@ -311,15 +314,33 @@ span
     margin-top:10%;
     margin-left: 10%;
     width: 20%;
+    font-size: 20px;
 }
 .stime
 {
     border: solid 4px gray;
     padding: 10px 10px 10px 10px;
     margin-left:10%;
-    width:60%;
+    height: 260px;
+    width:70%;
+    z-index: 2;
     transition: 2s;
-    font-size: 18px;
+}
+.comm1
+{
+    margin-top:10%;
+    margin-left: 10%;
+    font-size: 20px;
+    width: 20%;
+}
+.stime1
+{
+    border: solid 3px gray;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10%;
+    width:70%;
+    height: 500px;
+    transition: 2s;
 }
 .stime:hover
 {
@@ -334,25 +355,9 @@ span
 .bat3
 {
     background-attachment: fixed;
-    height: 350px;
-    opacity: 0.8;
-    width: 155.5px;
+    height: 680px;
+    /* opacity: 0.8; */
     background-image: url("images/image8Copy.jpg") ;
-}
-.comm1
-{
-    margin-top:10%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    width: 10%;
-}
-.stime1
-{
-    border: solid 3px gray;
-    padding: 10px 10px 10px 10px;
-    margin-left: 10%;
-    width:60%;
-    transition: 2s;
 }
 .stime1:hover
 {
@@ -364,7 +369,7 @@ span
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 10%;
-    font-size: 10px;
+    font-size: 30px;
 }
 .color
 {
@@ -373,8 +378,8 @@ span
 }
 .border img
 {
-    width: 20px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border: solid 3px gray;
     margin:1px;
     transition: 2s;
@@ -385,9 +390,8 @@ span
 }
 .mango img
 {
-    width:60px;
-    height:40px;
-    margin: auto;
+    width:200px;
+    height:200px;
     border: solid 3px gray;
     margin:10px;
     transition: 2s;
@@ -400,22 +404,21 @@ span
 .td
 {
     /* color: white; */
-    font-size: 8px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hn3
 {
     color:white;
-    font-size: 20px;
-    width:120px;
+    font-size: 30px;
+    width:100%;
 }
 .str
 {
-    margin-left:-20% ;
-    width:80px;
     height: 15px;
     transition: 1s;
-    font-size: 6px;
+    font-size: 10px;
+    width: 170px;
 }
 .str:hover
 {
@@ -424,11 +427,10 @@ span
 }
 .str1
 {
-    margin-left:-20% ;
-    width:80px;
+    width:170px;
     height: 100px;
     transition: 1s;
-    font-size: 6px;
+    font-size: 10px;
 } 
 .str1:hover
 {
@@ -440,7 +442,7 @@ span
     font-weight: bold;
     transition: 1s;
     margin-top: 1em; 
-    margin-left:100%;
+    margin-left:150%;
     width:50px;
     height:30px;
     font-size: 10px;
@@ -453,8 +455,8 @@ span
 .footer
 {
     display: block;
-    /* margin: auto; */
-    width: 155.5px;
+    margin: auto; 
+    width: 70%;
     letter-spacing: 1px;
     color: white;
     font-size: 6px;
@@ -462,7 +464,7 @@ span
 .footer1
 {
     margin-top: 50px;
-    width: 155.5px;
+    width: 100%;
     background-color: rgb(58, 55, 55);
 }
 .tmp
@@ -470,15 +472,15 @@ span
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
     margin-left: 3px;
-    font-size: 10px;
+    font-size: 20px;
 }
 .reach
 {
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
-    margin-left: 3px;
-    font-size: 8px;
-    width: 155px;
+    padding-left: 10px;
+    font-size:20px;
+    width: 90%;
 }
 /* .about
 {
@@ -486,10 +488,10 @@ span
 } */
 .button
 {
-    margin-left: 25px;
-    border-radius: 30px;
-    padding: 0px 3px 3px 3px;
-    font-size: 10px;
+    margin-left: 45px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    font-size: 25px;
     font-family: cursive;
     color: white;
     background-color: rgb(37, 195, 235);
