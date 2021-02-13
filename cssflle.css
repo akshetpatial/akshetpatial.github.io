@@ -12,24 +12,41 @@ a
  text-decoration: none; 
  color: white;  
 }
-
 a:hover
 {
     color:rgb(151, 148, 148);
     transition: 0.8s;
 }
-
+.navlist
+{
+    width:0;
+     overflow: hidden;  
+     margin-top:-1%;
+    /* z-index: 1; */
+    position: fixed;
+    height: 400px;
+    background-color:#4169e1;
+    transition: 0.5s;
+}
+.close
+{
+    float:left;
+    margin:1px 10px;
+    font-size: 50px;
+}
 .navlist li
 {
+    clear:left;
     text-decoration: none;
     color: white;
     list-style: none;
     padding-left: 2.3%;
     font-size:1.2em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: inline;  
-    margin:1%;
-    transition: 0.8s;
+    /* display: inline;  */
+    display: block; 
+    margin:3%;
+    transition: 0.3s;
 }
 .navlist li:hover
 {
@@ -47,12 +64,15 @@ a:hover
     top:0; 
     /* border: solid 5px grey; */
 }
+b{
+    margin-left:1000px;
+}
 .search
 {
     position: relative;
     border-radius: 25px;
     width:20%;
-    margin-left: 22em;
+    margin-left: 900px;
     padding:1%;
     border:solid;
 }
@@ -60,6 +80,14 @@ a:hover
 {
     border: solid 3px rgb(209, 206, 209);
     transition-duration:0.5s;  
+}
+.open
+{
+    color:white;
+    font-size: 30px;
+    margin-left:10px; 
+    display: block;
+    cursor: pointer;
 }
 .di1 video
 {
@@ -436,6 +464,10 @@ span
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
     letter-spacing: 1.5px;
+}
+.reach
+{
+    color:white;
 }
 .about
 {

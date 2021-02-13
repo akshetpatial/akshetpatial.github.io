@@ -5,6 +5,17 @@ function gettime()
         document.getElementById("time").innerHTML=date;
     }
     setInterval(gettime,1000);
+function opennav()
+{
+    document.getElementById("open").style.display="none";
+    document.getElementById("navlist").style.width="100%";
+}
+function closenav()
+{
+    
+    document.getElementById("open").style.display="block";
+    document.getElementById("navlist").style.width="0";
+}
 
 //     function show()
 //     {

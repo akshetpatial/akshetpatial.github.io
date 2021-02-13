@@ -11,15 +11,16 @@
 </head>
     <body bgcolor="black">
         <nav class="back">
-            <ul class="navlist">
-                <li><a href="#welcome">Home</a></li>
-                <li><a href="#about">About</a></li>
+            <ul class="navlist" id="navlist">
+                <a href="javascript:void(0)" class="close" onclick="closenav()">&times;</a>
+                <li><a href="#welcome" >Home</a><b id="time"></b></li>
+                <li><a href="#about" >About</a><input type="url" placeholder="search here" class="search"></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact ME</a></li>
-                <li id="time"></li>
-                <li><input type="url" placeholder="search here" class="search"> <div class="searchbutt"></div></li>
+                
             </ul>
-        </nav> 
+            <span id="open" class="open" onclick="opennav()">&#9776</span> 
+        </nav>  
         <hr>  
         <div class="di1" id="welcome">
            <video autoplay loop muted >
