@@ -24,10 +24,12 @@ a:hover
      margin-top:-1%;
     /* z-index: 1; */
     position: fixed;
-    height: 400px;
-    background-color:#4169e1;
+    /* height: 400px; */
+    background: transparent;
+    background-color:rgb(48, 47, 47); 
     transition: 0.5s;
 }
+
 .close
 {
     float:left;
@@ -49,6 +51,23 @@ a:hover
     transition: 0.3s;
 }
 .navlist li:hover
+{
+    color:rgb(151, 148, 148);
+    cursor: pointer;
+}
+.navlist1 li
+{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding-left: 2%;
+    font-size:1.3em;
+    font-family: 'Philosopher', sans-serif;
+    display: inline;  
+    margin-left: 150px;
+    transition: 0.8s;
+}
+.navlist1 li:hover
 {
     color:rgb(151, 148, 148);
     cursor: pointer;
@@ -102,10 +121,14 @@ b{
     top:-1.8em;
 } */
 .bat{
-    opacity: 0.7;
-    background-image: url("images/image6.jpg");
-    height: 695px;
+    /* opacity: 0.7; */
+    
+    /* height: 800px;
     background-attachment: fixed;
+    background-size: cover;
+} */
+background-color:#33CCCC;
+height: 700px;
 }
 .img
 {
@@ -116,11 +139,9 @@ b{
     height: 300px;
     border-radius:150px;   
     transition: 1s;
-    filter: contrast(120%);
 }
 .img:hover
 {
-    filter: contrast(200%);
     transform: scale(1.2);
 }
 .student
@@ -154,12 +175,51 @@ b{
     color: white;
     transform: scale(1.1);
 }
+.intr
+{
+    background-color: white;
+    transition: 1s;
+}
+.intr:hover
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    transform: rotate(1.1deg) scale(1.05);
+}
+.introh1
+{
+    margin: auto;
+    width: 35%;
+    font-size: 100px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.introh3
+{
+    margin: auto;
+    width: 35%;
+    font-family: 'Philosopher', sans-serif;
+}
+.introp
+{
+    padding:50px 50px 100px 50px;
+    font-family: 'Philosopher', sans-serif;
+    color: gray;
+    font-size:20px;
+    /* float: right; */
+}
+.myimage
+{
+    width: 30%;
+    height:600px;
+    /* float: left; */
+}
 .div1
 {
     opacity: 0.7;
     color: white;
     /* border-radius:50px; */
-    height:370px
+    height:354px;
 }
 .hn1
 {
@@ -183,7 +243,7 @@ b{
     font-family:cursive;
     margin: auto;
     width: 57%;
-    height: 360px;
+    /* height: 360px; */
     animation: anima;
     animation-duration: 5s;
     animation-timing-function: ease-out;
@@ -220,94 +280,243 @@ transform: scale(1.05);
 } 
 .div2
 {
-    margin:0.5%;
+    /* margin:0.1%; */
     border: solid 2px;
     /* border-radius:100%; */
     /* display:flex; */
 }
 .hn2
 {
-    font-family:Arial, Helvetica, sans-serif;
-    margin-left:1%;
-    color: white;
-    background-color: transparent;
-    font-weight: bolder;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100px;
     letter-spacing: 2px;
-    margin-top: 5%;
+    color:white;
+    margin-top: 0.2%;
+    padding: 70px 0px 10px 5em ;
+    background-color:gray;
+    animation: services;
+    animation-duration: 3s;
+    animation-timing-function:ease;
+    animation-iteration-count: 1;
 }
-
+ @keyframes services
+{
+    from
+    {
+        padding-left: 0px;
+    }
+    to
+    {
+        padding-left: 37.05%;
+    } 
+}
 .box1
 {
     /* background: url("https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=282&q=80"); */
     margin:1%;
     border: solid 2px black;
+    height: 745px;
     /* border-radius: 50px 50px; */
-    opacity: 0.5;
     transition-duration:0.5s;  
+}
+ .box11
+{
+    background-color: white;
+} 
+/* .about
+{
+    background-color: black;
+} */
+
+.p1about
+{
+    color:black;
+    margin:auto;
+    font-family: 'Philosopher', sans-serif;
+    width:33%;
+    font-size: 30px;
+    padding-top: 5%;
+    box-sizing: border-box;  
+    letter-spacing: 2px;
+}
+.p1aboutchild
+{
+    font-family: 'Philosopher', sans-serif;
+    font-size:20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .p1
 {
-    color: white;
-    margin-left: 40%; 
-    font-family:cursive;
-    width:60%;
+    color:black;
+    margin:auto;
+    font-family: 'Philosopher', sans-serif;
+    width:22%;
+    font-size: 30px;
+    padding-top: 5%;
     box-sizing: border-box;  
     letter-spacing: 2px;
+}
+.p11
+{
+    color:black;
+    margin:auto;
+    font-family: 'Philosopher', sans-serif;
+    width:14%;
+    font-size: 30px;
+    padding-top: 5%;
+    box-sizing: border-box;  
+    letter-spacing: 2px;
+}
+.p1child
+{
+    color: black;
+    margin:auto;
+    font-family: 'Philosopher', sans-serif;
+    width:40.8%;
+    font-size: 20px;
+    padding-top: 1%;
+    box-sizing: border-box;  
+    letter-spacing: 2px;
+    animation: aks;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    white-space: nowrap;
+}
+@keyframes aks
+{
+    from
+    {
+        padding-left: 0px;
+    }
+    to
+    {
+        padding-left: 36.7%;
+    } 
+}
+.offericon
+{
+    margin-left: 48%;
+    width: 3em;
 }
 span
 {
     font-weight: bolder;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bungee Shade', cursive;
     color:#4169e1;
+    letter-spacing: 3px;
+    /* margin-left: 35%; */
 }
-.box1:hover
+.spanclass
+{
+    font-weight: bolder;
+    font-family: 'Bungee Shade', cursive;
+    color:#4169e1;
+    letter-spacing: 3px;
+    margin-left: 35%;
+}
+/* .box1:hover
 {
     /* border: solid 5px grey; */
-    opacity: 1;
+    /* opacity: 1;
     box-shadow: 8px 8px 20px 5px rgb(13, 211, 13);
     transform: scale(1.03);
     display: block;
     z-index: 1;
-}
+} */ 
 .svg
 {   filter: invert(70%);
     filter: saturate(200%);
-    background: transparent;
 }
-.li
+/* .li
 {
-    margin-left: 20%;
+    margin-left: 10%;
+} */
+.photo img
+{
+    width:30em;
+    height:38em;
+    float:left;
+    margin:3em 0em 3em 5em;
+    transition: 1s;
+}
+.photo img:hover
+{
+    transition: 1s;
+    transform: scale(1.05);
+}
+.photoset
+{
+    float:right;
+    width: 50%;
+    margin-top: 3%
 }
 .li1
 {
-    margin-bottom: 25px;
+   list-style: none;
+   margin: 1%;
+   transition: 1s;
+   display: flex;
+   padding:2%;
+   width: 60%;
+   border-bottom: solid 2px gray;
+}
+.li1:hover
+{
+    transform: scaleX(1.1);
+    transition: 1s;
+    background-color:  #00CC99;
+    color: white;
+    border-radius: 60px;
 }
 .li2
 {
-    
-    margin-bottom: 25px;
+    margin: 20px 1px 20px 30px;
     transition: 1s;
-    margin: 10px;
-    padding: 10px;
-    word-spacing: 2px;
-    letter-spacing: 2px;
+    padding-left: 5px;
+    word-spacing: 1px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    justify-content: center;
+    border: solid 1px gray;
 }
 .li2:hover
 {
     border: solid 1px gray;
-    transform: scale(1.05);
+    transform: rotate(2deg) scale(1.1);
+    background-color: #00CC99;
+    color: white;
 }
-.hn2:hover
+.li22
 {
-    text-shadow: 5px 2px green;
-    /* border-bottom: solid 5px grey; */
+    margin: 20px 10px 20px 30px;
+    transition: 1s;
+    padding-left: 5px;
+    word-spacing: 1px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    justify-content: center;
+    border: solid 1px gray;
+}
+.li22:hover
+{
+    border: solid 1px gray;
+    transform: rotate(-2deg) scale(1.1);
+    background-color: #00CC99;
+    color: white;
+}
+.li2child
+{
+    padding:30px 10px 30px 10px;
+    /* color: white; */
 }
 .bat1
 {
     background-attachment: fixed;
     height: 695px;
-    opacity: 0.6;
-    background-image: url("images/image7.jpg");
+    /* opacity: 0.6; */
+    background-image: url("images/background1.jpeg");
 }
 .bat2
 {
@@ -315,6 +524,7 @@ span
     height: 695px;
     opacity: 0.8;
     background-image: url("images/background1.jpeg");
+    background-size: cover;
 }
 .comm
 {
@@ -325,9 +535,10 @@ span
 {
     border: solid 4px gray;
     padding: 50px 50px 50px 50px;
-    margin-left: 300px;
+    margin-left: 215px;
     width:60%;
     transition: 2s;
+    font-family: 'Philosopher', sans-serif;
 }
 .stime:hover
 {
@@ -338,6 +549,27 @@ span
 .back
 {
     background-color:black;
+}
+.backcon
+{
+    background-color:  #00CC99;
+    padding-top: 18px;
+    height: 50px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+}
+.backcont
+{
+    /* margin-top: 30px; */
+    /* margin-top:-2.8%; */
+    background-color:gray;
+    /* padding-top: 5px;  */
+}
+.hn3
+{
+    margin-top: 20px;
 }
 .bat3
 {
@@ -359,12 +591,22 @@ span
     width:60%;
     transition: 2s;
 }
-.stime1:hover
+.stime2
+{
+    border: solid 4px gray;
+    padding: 50px 50px 50px 50px;
+    margin-left: 106px;
+    width:60%;
+    transition: 2s;
+    color: #4169e1;
+}
+
+/* .stime1:hover
 {
     
     transform: scale(1.05);
     color: white;
-}
+} */
 .color1
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -385,7 +627,7 @@ span
 }
 .border img:hover
 {
-    transform: scale(1.1);
+    transform: scale(2);
 }
 .mango img
 {
@@ -399,6 +641,10 @@ span
 {
     border: solid 5px ghostwhite;
     transform: scale(1.05);
+}
+.myslides
+{
+    overflow: hidden;
 }
 .td
 {
@@ -431,7 +677,7 @@ span
 {
     transform: scale(1.05);
 }
-.submit
+#submit
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -441,52 +687,121 @@ span
     width:100%;
     height:50px;
 }
-.submit:hover
+#submit:hover
 {
     transform: scale(1.2);
-    border:solid 3px gray;
+    /* border:solid 3px gray; */
 }
 .footer
 {
-    display: block;
-    margin: auto;
-    width: 600px;
+    margin: auto;  
+    width: 58%;
     letter-spacing: 2px;
     color: white;
-    
+    display: flex;
+    padding-top: 1%;
 }
 .footer1
 {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-color: rgb(58, 55, 55);
+}
+.socials
+{
+    list-style: none;
+    display: flex; 
+    margin-left: 20%;
+    /* width: 70%; */
+}
+.lo
+{ 
+    margin-left:40%;
 }
 .tmp
 {
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight:bolder;
+}
+.tmp1
+{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100px;
+    letter-spacing: 2px;
     color:white;
-    letter-spacing: 1.5px;
+    animation: get;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    padding-left: 4em;
+    animation-iteration-count: 1;
+}
+@keyframes get
+{
+   from
+   {
+    padding-left: 0px;
+   }
+   to
+   {
+    padding-left: 29.7%;
+   }
+}
+#contact
+{
+    margin: 3% 5%;
 }
 .reach
 {
+    margin-top: -1%;
     color:white;
+    margin-left:8%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Philosopher', sans-serif;
+    animation: aksh;
+    animation-timing-function: ease-in;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    white-space: nowrap;
 }
-.about
+@keyframes aksh
 {
-    margin-left:40%;
+    from{
+        padding-left: 0%;
+    }
+    to
+    {
+        padding-left: 30%;
+    }
+}
+.div3
+{
+    margin-left:2%;
+}
+.herecon
+{
+    color:indigo;
+    transition: 1.5s;
+}
+.herecon:hover
+{   
+    color:white;
 }
 .button
 {
-    border-radius: 30px;
+    border-radius: 8px;
     padding: 20px 20px 20px 20px;
     font-size: 20px;
-    font-family: cursive;
+    font-family: 'Philosopher', sans-serif;
     color: white;
     background-color: rgb(37, 195, 235);
-    transition: 2s;
-    margin-bottom: 10%;
+    transition: 1s;
+    margin-left:50%;
 }
 .button:hover
 {
-    background-color:rgb(23, 19, 231);
+    background-color:#00CC99;
     transform: scale(1.1);
 }
